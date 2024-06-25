@@ -1,0 +1,27 @@
+
+.box{
+    background-color: red;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    animation-name: mahi;
+    animation-duration: 5s;
+    animation-direction:  alternate;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes mahi{
+    0%{
+       background-color: red; 
+       border-radius: 30%;
+       transform: translate(200px);
+        }
+    100%{
+        background-color: blue;
+        border-radius: 50%;
+        transform: translate(300px);
+    }
+    
+}

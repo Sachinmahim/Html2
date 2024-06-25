@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      height: 100%;
+     width: 100%;
+    gap: 20px;
+    }
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid white;
+    text-align: center;
+    transition:all 5s ease 2s;
+}
+.box:hover{
+    background-color: aqua;
+    transform: translate(100px);
+}

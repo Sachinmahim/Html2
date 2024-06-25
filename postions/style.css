@@ -1,0 +1,44 @@
+.main{
+    background-color: aqua;
+    border: 1px solid black;
+    width: max-content;
+    height: max-content;
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    animation-name: mahi;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes mahi{
+    0%{
+        background-color: red;
+        border-radius: 25%;
+        transform: translate(150px);
+    }
+    100%{
+        background-color: aqua;
+        border-radius: 50%;
+        transform: translate(200px);
+    }
+    
+}
+ .box2{
+    position: relative; /* realtive means previous position */
+    left: 10px;
+
+}
+.box3{
+    position: absolute; /* absoulte will not consider the previous positions it will only consider the body */
+    /* fixed is also an absolute*/
+
+} */
